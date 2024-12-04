@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: #F3A86D;
+    margin: 0;
+
+    .navbarLogo {
+        width: 50px;
+        padding-left: 20px;
+    }
+
+    .navbarTitle {
+        color: #CC6D59;
+        font-weight: 700;
+        font-size: larger;
+        padding-left: 20px;
+    }
+
+    .navbarMenuIcon {
+        margin-left: auto;
+    }
+}
