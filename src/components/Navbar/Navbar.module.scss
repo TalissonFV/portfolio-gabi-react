@@ -3,7 +3,6 @@ nav {
     width: 100%;
     align-items: center;
     background-color: #F3A86D;
-    margin: 0;
 
     .navbarLogo {
         width: 50px;
@@ -19,5 +18,32 @@ nav {
 
     .navbarMenuIcon {
         margin-left: auto;
+        padding-right: 10px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: baseline;
+        align-content: flex-end;
+        list-style-type: none;
+        margin-left: auto;
+
+        li {
+            padding-right: 30px;
+
+            a {
+                color: inherit;
+                text-decoration-line: none;
+                font-weight: 700;
+            }
+        }
     }
 }
+
+@media only screen and (hover: none) and (pointer: coarse){
+    .element-to-hide {
+      display: none;
+    }
+  }
